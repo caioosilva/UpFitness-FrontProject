@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
 
-      {/**Link para o perfil, excluir após configurar */}
+
       <Link
         style={{
           position: 'fixed',
