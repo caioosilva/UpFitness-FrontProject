@@ -1,0 +1,83 @@
+/* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #fafafa;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.perfilInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+.perfilMenu {
+  width: 50%;
+}
+
+.perfilMenu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.perfilMenu ul li {
+  flex: 1 0 calc(50% - 6px);
+  text-align: center;
+}
+
+.perfilMenu ul li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  background: #eee;
+  transition: .3s;
+}
+
+.perfilMenu ul li a:hover {
+  background: #ddd;
+}
+
+.perfilFoto img {
+  width: 120px;
+}
+
+.treinamentos {
+  padding: 20px 0;
+}
+
+.treinoLista {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
