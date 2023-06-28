@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CardHistorico from '../../components/CardHistorico';
+import CardHistorico from '../../../components/CardHistorico';
 import './Historico.css';
 
 export default function Historico() {

@@ -4,7 +4,7 @@ import Login from './pages/acesso/Login';
 import Cadastro from './pages/acesso/Cadastro';
 import RecuperarSenha from './pages/acesso/RecuperarSenha';
 import Perfil from './pages/perfil/Perfil';
-import Historico from './pages/perfil/Historico'
+import Historico from './pages/perfil/Historico';
 
 function App() {
   return (

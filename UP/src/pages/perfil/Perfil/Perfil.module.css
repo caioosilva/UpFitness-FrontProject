@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* Geral */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -60,7 +61,7 @@ img {
   width: 100%;
   padding: 12px;
   background: #eee;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .perfilMenu ul li a:hover {
@@ -79,4 +80,34 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .treinoLista {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .perfilMenu {
+    width: 100%;
+    order: 2;
+  }
+  .perfilInfo {
+    flex-wrap: wrap;
+  }
+  .treinoLista {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .perfilMenu ul {
+    flex-direction: column;
+  }
+  .perfilInfo h1 {
+    font-size: 1.5rem;
+  }
 }
