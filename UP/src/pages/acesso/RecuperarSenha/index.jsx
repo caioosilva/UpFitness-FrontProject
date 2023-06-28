@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom';
-import Logo from './../../assets/logo.png';
-import './Acesso.css';
+import { Link } from "react-router-dom";
+import Logo from "../../../assets/logo.png";
+import "./RecuperarSenha.css";
+import Container from "../../../components/Container";
 
 function RecuperarSenha() {
   return (
     <>
-      <div className='container content'>
-        <div className='form'>
-          <div className='container360'>
-            <div className='form-header'>
+      <Container>
+          <div className="form">
+            <div className="form-header">
               <Link to="/">
                 <img src={Logo} alt="logotipo" />
               </Link>
@@ -20,19 +20,20 @@ function RecuperarSenha() {
             </div>
 
             <form action="#">
-              <div className='form-input'>
+              <div className="form-input">
                 <label htmlFor="email">Email de recuperação</label>
                 <input type="email" id="email" />
               </div>
 
-              <div className='form-btn'>
-                <button className='btn'>Enviar Email</button>
-                <p>Ainda não possui uma conta? <Link to="/cadastro">Criar conta</Link></p>
+              <div className="form-btn">
+                <button className="btn">Enviar Email</button>
+                <p>
+                  Ainda não possui uma conta? <Link to="/cadastro" className="link">Criar conta</Link>
+                </p>
               </div>
             </form>
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   );
 }

@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* Geral */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: borderBox;
-  font-family: 'Roboto', sans-serif;
-}
 
 body {
   background: #fafafa;
@@ -16,37 +11,23 @@ img {
 }
 
 a {
-  color: #555;
-}
+  color: #555; 
+}*/
 
-
-input::-webkit-outer-spin-button,
+/* remove arrows from imput number in Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-input[type=number] {
-  -moz-appearance: textfield;
-}
-
 .content {
   min-height: 100vh;
   padding: 80px 20px;
-}
+} */
 
-.container {
-  margin: 0;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-.container360 {
-  width: 360px;
-}
-
-
-.form {
+/* Conteudo */
+/* .form {
   width: max-content;
   height: 100%;
   margin: 0 auto;
@@ -56,19 +37,19 @@ input[type=number] {
   border-radius: 4px;
   border: 1px solid #ddd;
   padding: 40px;
-}
+} */
 
-
-.form-header {
+/* logo */
+/* .form-header {
   text-align: center;
 }
 
 .form-header img {
   width: 120px;
-}
+} */
 
-
-.form-header h1 {
+/* titulo */
+/* .form-header h1 {
   margin: 20px 0 32px;
   font-size: 1.5rem;
   font-weight: 500;
@@ -186,18 +167,16 @@ input[type=number] {
 
 .form-btn p {
   text-align: center;
-}
+} */
 
-
-.cadastro {
+/* cadastro */
+/* .cadastro {
   height: 100%;
   background: #fff;
   box-shadow: 0 0 20px rgb(0 0 0 / 12%);
   border-radius: 4px;
   border: 1px solid #ddd;
-  
   display: grid;
- 
   grid-template-columns: 1fr 1fr;
   border-radius: 8px;
   overflow: hidden;
@@ -221,4 +200,4 @@ input[type=number] {
 .form-img img {
   height: 100%;
   object-fit: cover;
-}
+} */
